@@ -17,4 +17,9 @@ public class HelloWorld {
 	    public String style() {
 	        return "add-css-js-demo";
 	    }
+	   @GetMapping("/bootstrap")
+	    public String bootstrap() {
+	        return "add-bootstrap";
+	    }
+	   
 }
